@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Tables</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .bold{
+            font-weight: 900;
+        }
+        .italic{
+            font-style: italic;
+            color:blue;
+            font-weight: bold;
+        }
+        tbody td{
+            padding: 10px;
+        }
+        button{
+            margin-right: 10px;
+        }
+        img{
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Animal Species</h1>
+
+        <!-- Big Cats Table -->
+        <section class="table-section">
+            <h2>Big Cats</h2>
+            <button class="add-btn" onclick="addAnimal('Big Cats')">Add Animal</button>
+            <table id="bigCatsTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('bigCatsTable')">Species</th>
+                        <th onclick="sortTable('bigCatsTable')">Name</th>
+                        <th onclick="sortTable('bigCatsTable')">Size</th>
+                        <th onclick="sortTable('bigCatsTable')">Location</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Animal rows will be rendered here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Dogs Table -->
+        <section class="table-section">
+            <h2>Dogs</h2>
+            <button class="add-btn" onclick="addAnimal('Dog')">Add Animal</button>
+            <table id="dogsTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('dogsTable')">Species</th>
+                        <th onclick="sortTable('dogsTable')">Name</th>
+                        <th onclick="sortTable('dogsTable')">Size</th>
+                        <th onclick="sortTable('dogsTable')">Location</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Animal rows will be rendered here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Big Fish Table -->
+        <section class="table-section">
+            <h2>Big Fish</h2>
+            <button class="add-btn" onclick="addAnimal('Big Fish')">Add Animal</button>
+            <table id="bigFishTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('bigFishTable')">Species</th>
+                        <th onclick="sortTable('bigFishTable')">Name</th>
+                        <th onclick="sortTable('bigFishTable')">Size</th>
+                        <th onclick="sortTable('bigFishTable')">Location</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Animal rows will be rendered here -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
