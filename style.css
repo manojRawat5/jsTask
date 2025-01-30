@@ -1,4 +1,41 @@
-.bold{
-    font-size: 45px;
-    background-color: red;
+.container{
+    padding: 20px;
+}
+table{
+    border:1px slid  red;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+table th{
+    border: 2px solid yellowgreen;
+    border-collapse: separate;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+table td{
+    border: 1px dotted red;
+    border-collapse: separate;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+}
+hr{
+    width: 50%;
+}
+
+button{
+    padding: 8px 12px;
+    font-weight: bold;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: green;
 }

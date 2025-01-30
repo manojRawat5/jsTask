@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Tables</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         .bold{
             font-weight: 900;
@@ -21,18 +21,16 @@
             margin-right: 10px;
         }
         img{
-            object-fit: contain;
+            object-fit: cover;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Animal Species</h1>
 
-        <!-- Big Cats Table -->
         <section class="table-section">
-            <h2>Big Cats</h2>
+            <h2>Table 1:Big Cats</h2>
             <button class="add-btn" onclick="addAnimal('Big Cats')">Add Animal</button>
             <table id="bigCatsTable">
                 <thead>
@@ -45,14 +43,14 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Animal rows will be rendered here -->
+                    
                 </tbody>
             </table>
         </section>
+        <hr>
 
-        <!-- Dogs Table -->
         <section class="table-section">
-            <h2>Dogs</h2>
+            <h2>Table 2:Dogs</h2>
             <button class="add-btn" onclick="addAnimal('Dog')">Add Animal</button>
             <table id="dogsTable">
                 <thead>
@@ -65,14 +63,14 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Animal rows will be rendered here -->
+                    
                 </tbody>
             </table>
         </section>
+        <hr>
 
-        <!-- Big Fish Table -->
         <section class="table-section">
-            <h2>Big Fish</h2>
+            <h2>Table :3 Big Fish</h2>
             <button class="add-btn" onclick="addAnimal('Big Fish')">Add Animal</button>
             <table id="bigFishTable">
                 <thead>
@@ -85,10 +83,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Animal rows will be rendered here -->
+                    
                 </tbody>
             </table>
         </section>
+        <hr>
     </div>
 
     <script src="script.js"></script>

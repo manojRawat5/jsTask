@@ -14,7 +14,6 @@ class AnimalTable {
         this.tableId = tableId;
         this.species = species;
         this.animals = [];
-        this.defaultImageUrl = 'https://lh7-rt.googleusercontent.com/docsz/AD_4nXd3YWTE9qsM8ixtWVa4XL_e79XTR2uTNPxMidJo6NjR_h3dJASy0iSLUZUIddQeEBsNSBNWdW_whoHv6pMNdGL-ap_Xr7w6o_ilDr9CbOE2lX6el124Cckde2_ZxGCKVWS8wN2y5g?key=diMK_80ckKTiDYYhCkLD1Q';  // Placeholder for custom image URL
     }
 
     addAnimal(name, size, location, imageUrl) {
